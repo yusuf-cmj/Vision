@@ -1,0 +1,9 @@
+Image,Stage,MSE,PSNR,SSIM
+camera_lowcontrast,Degraded,0.03,15.223,0.7311
+camera_lowcontrast,Pipeline 1 Enhanced,0.0266,15.7556,0.5162
+moon_saltpepper,Degraded,0.0126,18.9896,0.1905
+moon_saltpepper,Pipeline 1 Enhanced,0.055,12.597,0.3207
+coins_vignette,Degraded,0.0548,12.6122,0.5429
+coins_vignette,Pipeline 1 Enhanced,0.027,15.6818,0.5529
+astronaut_combined,Degraded,0.053,12.7543,0.4726
+astronaut_combined,Pipeline 2 Enhanced,0.021,16.7684,0.5156
