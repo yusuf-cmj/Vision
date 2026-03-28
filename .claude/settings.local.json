@@ -6,7 +6,8 @@
       "Bash(venv/Scripts/python --version)",
       "Bash(venv/Scripts/pip --version)",
       "Bash(venv/Scripts/python -c \":*)",
-      "Bash(venv/Scripts/jupyter nbconvert:*)"
+      "Bash(venv/Scripts/jupyter nbconvert:*)",
+      "Bash(python:*)"
     ]
   }
 }

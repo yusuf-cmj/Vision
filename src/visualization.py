@@ -9,7 +9,6 @@ so the caller can save or display as needed.
 
 import numpy as np
 import matplotlib
-matplotlib.use("Agg")           # non-interactive backend; safe for scripts
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import seaborn as sns
@@ -260,7 +259,6 @@ def plot_difference(ref: np.ndarray, enhanced: np.ndarray,
 # ── Utility ───────────────────────────────────────────────────────────────────
 
 def save_fig(fig: plt.Figure, path: str, dpi: int = 150):
-    """Save figure to disk and close it."""
+    """Save figure to disk (does NOT close — caller controls display)."""
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(path, dpi=dpi, bbox_inches="tight")
-    plt.close(fig)
