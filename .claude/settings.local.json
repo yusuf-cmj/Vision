@@ -7,7 +7,10 @@
       "Bash(venv/Scripts/pip --version)",
       "Bash(venv/Scripts/python -c \":*)",
       "Bash(venv/Scripts/jupyter nbconvert:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(venv/Scripts/python patch_notebook.py)",
+      "Bash(venv/Scripts/python -c \"from skimage import data; import numpy as np; c = data.cat\\(\\); ch = data.chelsea\\(\\); print\\(''cat shape:'', c.shape\\); print\\(''chelsea shape:'', ch.shape\\); print\\(''same?'', np.array_equal\\(c, ch\\)\\)\")"
     ]
   }
 }

@@ -21,7 +21,7 @@ def load_builtin_images() -> dict:
         "brick":     img_as_float(data.brick()),
         "astronaut": img_as_float(data.astronaut()),
         "coffee":    img_as_float(data.coffee()),
-        "cat":       img_as_float(data.cat()),
+        "rocket":    img_as_float(data.rocket()),
         "chelsea":   img_as_float(data.chelsea()),
     }
     return images
